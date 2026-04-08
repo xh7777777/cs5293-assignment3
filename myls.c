@@ -1,4 +1,4 @@
-c/* myls.c */
+/* myls.c */
 #include <stdlib.h>
 #include <stdio.h>
 
