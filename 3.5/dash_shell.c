@@ -9,7 +9,7 @@ int main()
     argv[0] = "/bin/sh";
     argv[1] = NULL;
     
-    // setuid(0);  // Line 11 - COMMENTED OUT initially
+    // setuid(0);  // Line 11 - COMMENTED OUT initiall
     execve("/bin/sh", argv, NULL);
     
     return 0;

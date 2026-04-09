@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-/* Changing this size will change the layout of the stack. */
+/* Changing this size will change the layout of the stack */
 #ifndef BUFSIZE
 #define BUFSIZE 33
 #endif
